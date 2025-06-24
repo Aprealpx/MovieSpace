@@ -1,6 +1,6 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-  background-image: url('bgbg.jpg'); /* Replace with actual file path */
+  background-image: url('my-website/bgbg.jpg'); /* Replace with actual file path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
