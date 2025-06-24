@@ -10,6 +10,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: Arial, sans-serif; background: #111; color: #fff; 
 }
 
 /* --- rest of your styles below --- */
