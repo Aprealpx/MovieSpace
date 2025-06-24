@@ -5,52 +5,26 @@
 }
 
 body {
-  min-height: 100vh;
-  background-image: url('my-website/bgbg.jpg'); /* Replace with actual file path */
+  background-image: url('my-website/bgbg.jpg'); /* Use the correct path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* Add overlay for readability, optional: */
-  position: relative;
 }
 
-body::before {
-  /* Optional: Slight dark overlay for improved contrast */
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  width: 100vw; height: 100vh;
-  background: rgba(0,0,0,0.2); /* Adjust opacity as needed */
-  z-index: -1;
-  pointer-events: none;
-}
+/* --- rest of your styles below --- */
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background: #222;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px; background: #222;
 }
 
-.navbar img {
-  height: 40px;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  margin: 0 5px;
-}
+.navbar img { height: 40px; }
+.nav-links { display: flex; align-items: center; gap: 10px; }
+.nav-links a { color: white; text-decoration: none; margin: 0 5px; }
+
 .search-bar {
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
+  padding: 5px; border-radius: 5px; border: none;
 }
 
 .banner {
@@ -63,9 +37,7 @@ body::before {
 
 .banner h1 {
   background: rgba(0,0,0,0.7);
-  color: #fff;
   padding: 10px;
-  border-radius: 6px;
 }
 
 .row {
@@ -74,8 +46,6 @@ body::before {
 
 .row h2 {
   margin-bottom: 10px;
-  color: #fff;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
 
 .list {
@@ -135,7 +105,6 @@ body::before {
 .modal-text {
   flex: 1;
   text-align: left;
-  color: #fff;
 }
 
 .modal img {
@@ -143,15 +112,12 @@ body::before {
   border-radius: 5px;
 }
 
-.stars {
-  color: gold;
-}
+.stars { color: gold; }
 .close {
   position: absolute;
   top: 10px; right: 20px;
   cursor: pointer;
   font-size: 24px;
-  color: #fff;
 }
 
 .server-selector {
@@ -159,7 +125,7 @@ body::before {
   text-align: left;
 }
 
-/* SEARCH MODAL */
+
 .search-modal {
   position: fixed;
   top: 0; left: 0;
@@ -198,7 +164,6 @@ body::before {
   top: 20px;
   right: 30px;
   font-size: 30px;
-  color: #fff;
 }
 
 /* MOBILE DISPLAY START */
@@ -224,9 +189,9 @@ body::before {
   }
 
   .banner {
-    height: 30vh;
+      height: 30vh;
   }
-
+    
   .modal-body {
     align-items: center;
   }
