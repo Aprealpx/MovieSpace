@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url('bgbg.jpg'); /* Make sure the path is correct */
+  background-image: url('https://www.w3schools.com/css/img_lights.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
