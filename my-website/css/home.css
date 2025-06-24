@@ -5,19 +5,19 @@
 }
 
 body {
-  background-image: url('my-website/bgbg.jpg'); /* Use the correct path */
+  background-image: url('my-website/bgbg.jpg'); /* Make sure the path is correct */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: Arial, sans-serif; background: #111; color: #fff; 
 }
 
-/* --- rest of your styles below --- */
-
 .navbar {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 10px; background: #222;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px; 
+  background: #222;
 }
 
 .navbar img { height: 40px; }
@@ -39,6 +39,8 @@ body {
 .banner h1 {
   background: rgba(0,0,0,0.7);
   padding: 10px;
+  color: #fff;
+  border-radius: 6px;
 }
 
 .row {
@@ -47,6 +49,8 @@ body {
 
 .row h2 {
   margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
 
 .list {
@@ -106,6 +110,7 @@ body {
 .modal-text {
   flex: 1;
   text-align: left;
+  color: #fff;
 }
 
 .modal img {
@@ -119,13 +124,13 @@ body {
   top: 10px; right: 20px;
   cursor: pointer;
   font-size: 24px;
+  color: #fff;
 }
 
 .server-selector {
   margin: 15px 0;
   text-align: left;
 }
-
 
 .search-modal {
   position: fixed;
@@ -165,6 +170,7 @@ body {
   top: 20px;
   right: 30px;
   font-size: 30px;
+  color: #fff;
 }
 
 /* MOBILE DISPLAY START */
@@ -190,9 +196,9 @@ body {
   }
 
   .banner {
-      height: 30vh;
+    height: 30vh;
   }
-    
+
   .modal-body {
     align-items: center;
   }
